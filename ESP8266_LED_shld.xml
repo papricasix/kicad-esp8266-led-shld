@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\Micha\Documents\KiCAD\ESP8266_LED_shld\ESP8266_LED_shld.sch</source>
+    <date>31.03.2017 20:55:30</date>
+    <tool>Eeschema 4.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>ESP8266_LED_shld.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>ESP-07v2</value>
+      <footprint>ESP8266:ESP-07v2</footprint>
+      <libsource lib="ESP8266" part="ESP-07v2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DD4D55</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>CONN_01X08</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="CONN_01X08"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DD4E86</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>CONN_01X08</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="CONN_01X08"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DD4F50</tstamp>
+    </comp>
+    <comp ref="M1">
+      <value>LOGIC_LEVEL_CONVERTER</value>
+      <footprint>SparkFun-Boards:LOGIC_LEVEL_CONVERTER</footprint>
+      <libsource lib="SparkFun-Boards" part="LOGIC_LEVEL_CONVERTER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DD5864</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>LD1117S33TR</value>
+      <footprint>SparkFun-PowerIC:V-REG_DPACK</footprint>
+      <libsource lib="regul" part="LD1117S33TR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DD5C62</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>220uF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="SparkFun-Capacitors" part="CAP1206"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DD5CDD</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>220uF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="SparkFun-Capacitors" part="CAP1206"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DD5D86</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>220uF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="SparkFun-Capacitors" part="CAP1206"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DD5DC2</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>USB-MICROB</value>
+      <footprint>SparkFun-Connectors:USB-MICROB</footprint>
+      <libsource lib="SparkFun-Connectors" part="USB-MICROB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DD5E02</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>BARREL_JACK</value>
+      <footprint>Connectors:BARREL_JACK</footprint>
+      <libsource lib="conn" part="BARREL_JACK"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DD5E5D</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Pwr_Dat_Out</value>
+      <footprint>Connectors_Terminal_Blocks:TerminalBlock_Pheonix_PT-3.5mm_3pol</footprint>
+      <libsource lib="conn" part="Screw_Terminal_1x03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DD5E88</tstamp>
+    </comp>
+    <comp ref="LED1">
+      <value>LED1206</value>
+      <footprint>LEDs:LED_1206</footprint>
+      <libsource lib="LilyPad-Wearables" part="LED1206"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DD5EB7</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>DIODESOD-123</value>
+      <footprint>Diodes_SMD:D_SOD-323_HandSoldering</footprint>
+      <libsource lib="adafruit" part="DIODESOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DD5F6B</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>DIODESOD-123</value>
+      <footprint>Diodes_SMD:D_SOD-323_HandSoldering</footprint>
+      <libsource lib="adafruit" part="DIODESOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DD5FC4</tstamp>
+    </comp>
+    <comp ref="S2">
+      <value>FLASH</value>
+      <footprint>Buttons_Switches_THT:SW_PUSH_6mm</footprint>
+      <libsource lib="SparkFun-Retired" part="TAC_SWITCHPTH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DD611B</tstamp>
+    </comp>
+    <comp ref="S1">
+      <value>RESET</value>
+      <footprint>Buttons_Switches_THT:SW_PUSH_6mm</footprint>
+      <libsource lib="SparkFun-Retired" part="TAC_SWITCHPTH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DD61C4</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>CONN_DIN</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DD622D</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>1K</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <libsource lib="SparkFun-Passives" part="RESISTOR1206"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DDDE5B</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10K</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <libsource lib="SparkFun-Passives" part="RESISTOR1206"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DE5680</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10K</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <libsource lib="SparkFun-Passives" part="RESISTOR1206"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DE7FCE</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10K</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <libsource lib="SparkFun-Passives" part="RESISTOR1206"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DEB452</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10K</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <libsource lib="SparkFun-Passives" part="RESISTOR1206"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DEC57D</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10K</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <libsource lib="SparkFun-Passives" part="RESISTOR1206"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DECA9D</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="conn" part="BARREL_JACK">
+      <description>DC Barrel Jack</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">BARREL_JACK</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun-Capacitors" part="CAP1206">
+      <footprints>
+        <fp>*1206*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CAP1206</field>
+        <field name="Footprint">1206</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X02">
+      <description>Connector, single row, 01x02, pin header</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X*</fp>
+        <fp>Pin_Header_Angled_1X*</fp>
+        <fp>Socket_Strip_Straight_1X*</fp>
+        <fp>Socket_Strip_Angled_1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X08">
+      <description>Connector, single row, 01x08, pin header</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X*</fp>
+        <fp>Pin_Header_Angled_1X*</fp>
+        <fp>Socket_Strip_Straight_1X*</fp>
+        <fp>Socket_Strip_Angled_1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01X08</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="adafruit" part="DIODESOD-123">
+      <footprints>
+        <fp>*SOD-123*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DIODESOD-123</field>
+        <field name="Footprint">SOD-123</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP8266" part="ESP-12">
+      <aliases>
+        <alias>ESP-07v2</alias>
+      </aliases>
+      <description>ESP8266 ESP-12 module, 16 pins, 2mm, PCB antenna</description>
+      <docs>http://l0l.org.uk/2014/12/esp8266-modules-hardware-guide-gotta-catch-em-all/</docs>
+      <footprints>
+        <fp>ESP-07*</fp>
+        <fp>ESP-12*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP-12</field>
+      </fields>
+      <pins>
+        <pin num="1" name="REST" type="input"/>
+        <pin num="2" name="ADC" type="passive"/>
+        <pin num="3" name="CH_PD" type="input"/>
+        <pin num="4" name="GPIO16" type="BiDi"/>
+        <pin num="5" name="GPIO14" type="BiDi"/>
+        <pin num="6" name="GPIO12" type="BiDi"/>
+        <pin num="7" name="GPIO13" type="BiDi"/>
+        <pin num="8" name="VCC" type="power_in"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="GPIO15" type="BiDi"/>
+        <pin num="11" name="GPIO2" type="BiDi"/>
+        <pin num="12" name="GPIO0" type="BiDi"/>
+        <pin num="13" name="GPIO4" type="BiDi"/>
+        <pin num="14" name="GPIO5" type="BiDi"/>
+        <pin num="15" name="RXD" type="input"/>
+        <pin num="16" name="TXD" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="regul" part="LD1117S33TR">
+      <aliases>
+        <alias>LD1117S33CTR</alias>
+        <alias>LD1117S12TR</alias>
+        <alias>LD1117S12CTR</alias>
+        <alias>LD1117S18TR</alias>
+        <alias>LD1117S18CTR</alias>
+        <alias>LD1117S25TR</alias>
+        <alias>LD1117S25CTR</alias>
+        <alias>LD1117S50TR</alias>
+        <alias>LD1117S50CTR</alias>
+      </aliases>
+      <description>800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 3.3V, SOT223</description>
+      <docs>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf</docs>
+      <footprints>
+        <fp>SOT223</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LD1117S33TR</field>
+        <field name="Footprint">TO_SOT_Packages_SMD:SOT-223</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="LilyPad-Wearables" part="LED1206">
+      <footprints>
+        <fp>*LED-1206*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">LED1206</field>
+        <field name="Footprint">LED-1206</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun-Boards" part="LOGIC_LEVEL_CONVERTER">
+      <footprints>
+        <fp>*LOGIC_LEVEL_CONVERTER*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">LOGIC_LEVEL_CONVERTER</field>
+        <field name="Footprint">LOGIC_LEVEL_CONVERTER</field>
+      </fields>
+      <pins>
+        <pin num="P$1" name="LV_TXI_1" type="BiDi"/>
+        <pin num="P$2" name="LV_RXO_1" type="BiDi"/>
+        <pin num="P$3" name="LV" type="BiDi"/>
+        <pin num="P$4" name="GND" type="BiDi"/>
+        <pin num="P$5" name="LV_RXO_2" type="BiDi"/>
+        <pin num="P$6" name="LV_TXI_2" type="BiDi"/>
+        <pin num="P$7" name="HV_TXO_2" type="BiDi"/>
+        <pin num="P$8" name="HV_RXI_2" type="BiDi"/>
+        <pin num="P$9" name="GND" type="BiDi"/>
+        <pin num="P$10" name="HV" type="BiDi"/>
+        <pin num="P$11" name="HV_RXI_1" type="BiDi"/>
+        <pin num="P$12" name="HV_TXO_1" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun-Passives" part="RESISTOR1206">
+      <footprints>
+        <fp>*1206*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RESISTOR1206</field>
+        <field name="Footprint">1206</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="Screw_Terminal_1x03">
+      <description>3-pin screw terminal connector</description>
+      <footprints>
+        <fp>bornier3</fp>
+        <fp>TerminalBlock*3pol</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_1x03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun-Retired" part="TAC_SWITCHPTH">
+      <footprints>
+        <fp>*TACTILE-PTH*</fp>
+        <fp>*TACTILE-SWITCH-SMD*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">TAC_SWITCHPTH</field>
+        <field name="Footprint">TACTILE-PTH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun-Connectors" part="USB-MICROB">
+      <footprints>
+        <fp>*USB-MICROB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB-MICROB</field>
+        <field name="Footprint">USB-MICROB</field>
+      </fields>
+      <pins>
+        <pin num="D+" name="D+" type="BiDi"/>
+        <pin num="D-" name="D-" type="BiDi"/>
+        <pin num="GND" name="GND" type="BiDi"/>
+        <pin num="MT1" name="GND" type="BiDi"/>
+        <pin num="MT2" name="GND" type="BiDi"/>
+        <pin num="VBUS" name="VBUS" type="BiDi"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="conn">
+      <uri>D:\Development\Program Files\KiCad\share\kicad\library\conn.lib</uri>
+    </library>
+    <library logical="regul">
+      <uri>D:\Development\Program Files\KiCad\share\kicad\library\regul.lib</uri>
+    </library>
+    <library logical="ESP8266">
+      <uri>C:\Users\Micha\Documents\KiCAD\Libraries\kicad-ESP8266\ESP8266.lib</uri>
+    </library>
+    <library logical="adafruit">
+      <uri>C:\Users\Micha\Documents\KiCAD\Libraries\SparkFun-Kicad-Libraries\adafruit.lib</uri>
+    </library>
+    <library logical="LilyPad-Wearables">
+      <uri>C:\Users\Micha\Documents\KiCAD\Libraries\SparkFun-Kicad-Libraries\LilyPad-Wearables.lib</uri>
+    </library>
+    <library logical="SparkFun-Boards">
+      <uri>C:\Users\Micha\Documents\KiCAD\Libraries\SparkFun-Kicad-Libraries\SparkFun-Boards.lib</uri>
+    </library>
+    <library logical="SparkFun-Capacitors">
+      <uri>C:\Users\Micha\Documents\KiCAD\Libraries\SparkFun-Kicad-Libraries\SparkFun-Capacitors.lib</uri>
+    </library>
+    <library logical="SparkFun-Connectors">
+      <uri>C:\Users\Micha\Documents\KiCAD\Libraries\SparkFun-Kicad-Libraries\SparkFun-Connectors.lib</uri>
+    </library>
+    <library logical="SparkFun-Passives">
+      <uri>C:\Users\Micha\Documents\KiCAD\Libraries\SparkFun-Kicad-Libraries\SparkFun-Passives.lib</uri>
+    </library>
+    <library logical="SparkFun-Retired">
+      <uri>C:\Users\Micha\Documents\KiCAD\Libraries\SparkFun-Kicad-Libraries\SparkFun-Retired.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(D2-PadA)">
+      <node ref="D2" pin="A"/>
+      <node ref="J6" pin="VBUS"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="U1" pin="9"/>
+      <node ref="M1" pin="P$4"/>
+      <node ref="M1" pin="P$9"/>
+      <node ref="U2" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="R4" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="J5" pin="2"/>
+      <node ref="J3" pin="1"/>
+      <node ref="J1" pin="3"/>
+      <node ref="S1" pin="3"/>
+      <node ref="R6" pin="2"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="3" name="Net-(LED1-PadC)">
+      <node ref="LED1" pin="C"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="4" name="Net-(D1-PadC)">
+      <node ref="LED1" pin="A"/>
+      <node ref="D1" pin="C"/>
+    </net>
+    <net code="5" name="VUSB">
+      <node ref="D2" pin="C"/>
+    </net>
+    <net code="6" name="GPIO2">
+      <node ref="U1" pin="11"/>
+      <node ref="R3" pin="2"/>
+      <node ref="J3" pin="3"/>
+    </net>
+    <net code="7" name="GPIO15">
+      <node ref="R5" pin="2"/>
+      <node ref="J3" pin="2"/>
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="8" name="Net-(M1-PadP$12)">
+      <node ref="M1" pin="P$12"/>
+    </net>
+    <net code="9" name="Net-(M1-PadP$11)">
+      <node ref="M1" pin="P$11"/>
+    </net>
+    <net code="10" name="Net-(M1-PadP$8)">
+      <node ref="M1" pin="P$8"/>
+    </net>
+    <net code="11" name="Net-(M1-PadP$5)">
+      <node ref="M1" pin="P$5"/>
+    </net>
+    <net code="12" name="Net-(M1-PadP$2)">
+      <node ref="M1" pin="P$2"/>
+    </net>
+    <net code="13" name="Net-(M1-PadP$1)">
+      <node ref="M1" pin="P$1"/>
+    </net>
+    <net code="14" name="Net-(R4-Pad2)">
+      <node ref="S2" pin="3"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="15" name="GPIO0">
+      <node ref="S2" pin="2"/>
+      <node ref="U1" pin="12"/>
+      <node ref="J3" pin="4"/>
+    </net>
+    <net code="16" name="DOUT">
+      <node ref="M1" pin="P$7"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="17" name="+3V3">
+      <node ref="U2" pin="2"/>
+      <node ref="J4" pin="8"/>
+      <node ref="U1" pin="8"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="D1" pin="A"/>
+      <node ref="M1" pin="P$3"/>
+      <node ref="R3" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="18" name="Vin">
+      <node ref="J5" pin="1"/>
+      <node ref="M1" pin="P$10"/>
+      <node ref="U2" pin="3"/>
+      <node ref="J1" pin="2"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="19" name="Net-(J6-PadD+)">
+      <node ref="J6" pin="D+"/>
+    </net>
+    <net code="20" name="Net-(J6-PadD-)">
+      <node ref="J6" pin="D-"/>
+    </net>
+    <net code="21" name="GNDUSB">
+      <node ref="J6" pin="GND"/>
+      <node ref="J6" pin="MT2"/>
+      <node ref="J6" pin="MT1"/>
+    </net>
+    <net code="22" name="GNDBREAK">
+      <node ref="J5" pin="3"/>
+    </net>
+    <net code="23" name="GPIO4">
+      <node ref="U1" pin="13"/>
+      <node ref="J3" pin="5"/>
+    </net>
+    <net code="24" name="GPIO5">
+      <node ref="U1" pin="14"/>
+      <node ref="J3" pin="6"/>
+    </net>
+    <net code="25" name="RXD">
+      <node ref="U1" pin="15"/>
+      <node ref="J3" pin="7"/>
+    </net>
+    <net code="26" name="TXD">
+      <node ref="J3" pin="8"/>
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="27" name="REST">
+      <node ref="U1" pin="1"/>
+      <node ref="S1" pin="2"/>
+      <node ref="R1" pin="1"/>
+      <node ref="J4" pin="1"/>
+    </net>
+    <net code="28" name="ADC">
+      <node ref="U1" pin="2"/>
+      <node ref="J4" pin="2"/>
+    </net>
+    <net code="29" name="CH_PD">
+      <node ref="R2" pin="1"/>
+      <node ref="J4" pin="3"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="30" name="GPIO16">
+      <node ref="J4" pin="4"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="31" name="GPIO14">
+      <node ref="J4" pin="5"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="32" name="GPIO12">
+      <node ref="J4" pin="6"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="33" name="GPIO13">
+      <node ref="U1" pin="7"/>
+      <node ref="J4" pin="7"/>
+    </net>
+    <net code="34" name="Net-(S2-Pad1)">
+      <node ref="S2" pin="1"/>
+    </net>
+    <net code="35" name="Net-(S2-Pad4)">
+      <node ref="S2" pin="4"/>
+    </net>
+    <net code="36" name="Net-(S1-Pad1)">
+      <node ref="S1" pin="1"/>
+    </net>
+    <net code="37" name="Net-(S1-Pad4)">
+      <node ref="S1" pin="4"/>
+    </net>
+    <net code="38" name="DIN">
+      <node ref="J2" pin="1"/>
+      <node ref="J2" pin="2"/>
+      <node ref="M1" pin="P$6"/>
+    </net>
+  </nets>
+</export>
