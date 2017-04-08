@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source C:/Users/Micha/Documents/KiCAD/ESP8266_LED_shld/ESP8266_LED_shld.sch)
-    (date "05.04.2017 19:11:55")
+    (source C:\Users\Micha\Documents\KiCAD\ESP8266_LED_shld\ESP8266_LED_shld.sch)
+    (date "05.04.2017 20:53:58")
     (tool "Eeschema 4.0.6")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -77,7 +77,7 @@
       (tstamp 58DD5EB7))
     (comp (ref D2)
       (value DIODE)
-      (footprint Diodes_SMD:D_SOD-323_HandSoldering)
+      (footprint Diodes_SMD:D_SOD-123)
       (libsource (lib device) (part D))
       (sheetpath (names /) (tstamps /))
       (tstamp 58DD5FC4))
