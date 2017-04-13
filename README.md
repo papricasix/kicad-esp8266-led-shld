@@ -1,6 +1,9 @@
 # kicad-esp8266-led-shld
 Schema and PCB design for a ESP8266 "shield"
 
+## PCB shot (not assembled):
+![alt tag](https://raw.githubusercontent.com/papricasix/kicad-esp8266-led-shld/master/images/pcb_shot_unassembled.JPG)
+
 ## PCB layout:
 ![alt tag](https://raw.githubusercontent.com/papricasix/kicad-esp8266-led-shld/master/images/pcb_view.png)
 
