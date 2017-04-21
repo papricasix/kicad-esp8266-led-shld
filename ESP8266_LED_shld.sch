@@ -29,6 +29,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:CH340G
 LIBS:ESP8266
 LIBS:adafruit
 LIBS:GeekAmmo
@@ -123,17 +124,6 @@ F 3 "" H 8750 1450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L USB-MICROB J5
-U 1 1 58DD5E02
-P 10200 3600
-F 0 "J5" H 10200 3975 50  0000 L BNN
-F 1 "USB-MICROB" H 10200 3450 50  0000 L BNN
-F 2 "FixedComponents:USB_Micro-B-revision2" H 10230 3750 20  0001 C CNN
-F 3 "" H 10200 3600 60  0000 C CNN
-	1    10200 3600
-	1    0    0    -1  
-$EndComp
-$Comp
 L BARREL_JACK J4
 U 1 1 58DD5E5D
 P 9800 4300
@@ -169,12 +159,12 @@ $EndComp
 $Comp
 L D D2
 U 1 1 58DD5FC4
-P 9650 3350
-F 0 "D2" H 9550 3450 50  0000 L BNN
-F 1 "DIODE" H 9550 3200 50  0000 L BNN
-F 2 "Diodes_SMD:D_SOD-323_HandSoldering" H 9680 3500 20  0001 C CNN
-F 3 "" H 9650 3350 60  0001 C CNN
-	1    9650 3350
+P 9550 3500
+F 0 "D2" H 9450 3600 50  0000 L BNN
+F 1 "DIODE" H 9450 3350 50  0000 L BNN
+F 2 "Diodes_SMD:D_SOD-323_HandSoldering" H 9580 3650 20  0001 C CNN
+F 3 "" H 9550 3500 60  0001 C CNN
+	1    9550 3500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -240,8 +230,6 @@ Text GLabel 5950 2250 2    60   Input ~ 0
 GPIO15
 Text GLabel 10100 4300 2    60   Output ~ 0
 GNDBREAK
-NoConn ~ 10100 3300
-NoConn ~ 10100 3400
 Text GLabel 7250 1600 0    60   Output ~ 0
 LV1
 Text GLabel 7250 1700 0    60   Output ~ 0
@@ -408,17 +396,9 @@ F 3 "" H 10700 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10100 3500 9900 3500
+	9700 3500 10100 3500
 Wire Wire Line
-	9900 3500 9900 3350
-Wire Wire Line
-	9900 3350 9800 3350
-Wire Wire Line
-	9500 3350 9400 3350
-Wire Wire Line
-	9400 3350 9400 3500
-Wire Wire Line
-	9400 3500 9200 3500
+	9200 3500 9400 3500
 $Comp
 L RESISTOR1206 R3
 U 1 1 58DE5680
@@ -638,7 +618,7 @@ Wire Wire Line
 Connection ~ 1700 1050
 Wire Wire Line
 	2400 1050 2500 1050
-Text GLabel 10100 3600 0    60   Input ~ 0
+Text GLabel 10050 2850 0    60   Input ~ 0
 GNDBREAK
 $Comp
 L CONN_02X08 J2
@@ -962,4 +942,87 @@ F 3 "" H 2000 4350 50  0001 C CNN
 	1    2000 4350
 	1    0    0    -1  
 $EndComp
+$Comp
+L USB_B J5
+U 1 1 58F90BD6
+P 10400 3300
+F 0 "J5" H 10200 3750 50  0000 L CNN
+F 1 "USB_B" H 10200 3650 50  0000 L CNN
+F 2 "Connectors:USB_Mini-B" H 10550 3250 50  0001 C CNN
+F 3 "" H 10550 3250 50  0001 C CNN
+	1    10400 3300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10050 2850 10500 2850
+Text Label 9800 3500 0    60   ~ 0
+VBUS
+Wire Wire Line
+	10400 2850 10400 2900
+Wire Wire Line
+	10500 2850 10500 2900
+Connection ~ 10400 2850
+$Comp
+L CH340G U?
+U 1 1 58F91D58
+P 1750 6400
+F 0 "U?" H 1750 6400 50  0001 L CNN
+F 1 "CH340G" H 1750 6400 50  0001 L CNN
+F 2 "SOP-16" H 1750 6400 50  0001 L CNN
+F 3 "" H 1750 6400 60  0001 C CNN
+	1    1750 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58F9490C
+P 650 5700
+F 0 "#PWR?" H 650 5450 50  0001 C CNN
+F 1 "GND" H 650 5550 50  0000 C CNN
+F 2 "" H 650 5700 50  0001 C CNN
+F 3 "" H 650 5700 50  0001 C CNN
+	1    650  5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 5700 650  5700
+$Comp
+L +3.3V #PWR?
+U 1 1 58F957B2
+P 2550 5700
+F 0 "#PWR?" H 2550 5550 50  0001 C CNN
+F 1 "+3.3V" H 2550 5840 50  0000 C CNN
+F 2 "" H 2550 5700 50  0001 C CNN
+F 3 "" H 2550 5700 50  0001 C CNN
+	1    2550 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 5700 2550 5700
+$Comp
+L +3.3V #PWR?
+U 1 1 58F95A00
+P 650 6300
+F 0 "#PWR?" H 650 6150 50  0001 C CNN
+F 1 "+3.3V" H 650 6440 50  0000 C CNN
+F 2 "" H 650 6300 50  0001 C CNN
+F 3 "" H 650 6300 50  0001 C CNN
+	1    650  6300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 6300 650  6300
+NoConn ~ 2350 5900
+Text GLabel 1150 5900 0    60   Input ~ 0
+RXD
+Text GLabel 1150 6100 0    60   Input ~ 0
+TXD
+Text GLabel 10100 3200 0    60   Input ~ 0
+D-
+Text GLabel 10100 3300 0    60   Input ~ 0
+D+
+Text GLabel 1150 6700 0    60   Input ~ 0
+D-
+Text GLabel 1150 6500 0    60   Input ~ 0
+D+
 $EndSCHEMATC
